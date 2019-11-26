@@ -1,0 +1,30 @@
+header{
+    position: relative;
+    display: block;
+    width: 100%;
+    background: #003366;
+    color: white;
+    height: 35px;
+}
+
+header .logo{
+    position: absolute;
+    top: 15%;
+    margin: auto;
+}
+
+
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 7px;
+    
+}
+
+.userOptions {
+    
+}
+
+a {
+    color:  white;
+}
