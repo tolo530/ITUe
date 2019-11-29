@@ -4,7 +4,7 @@ header{
     width: 100%;
     background: #003366;
     color: white;
-    height: 35px;
+    height: 40px;
     padding: 5px;
 }
 
@@ -29,3 +29,13 @@ ul li{
 a {
     color:  white;
 }
+
+#loginIMG {
+    height: 10%;
+    width: 10%;
+}
+
+ #login{
+     text-align: center;
+     margin-top: 50px;
+ }
