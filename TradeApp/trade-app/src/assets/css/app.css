@@ -5,6 +5,7 @@ header{
     background: #003366;
     color: white;
     height: 35px;
+    padding: 5px;
 }
 
 header .logo{
@@ -22,7 +23,7 @@ ul li{
 }
 
 .userOptions {
-    
+    float: right;
 }
 
 a {

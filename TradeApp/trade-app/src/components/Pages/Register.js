@@ -14,11 +14,11 @@ class Register extends Component{
                     Username  <input type="text" /> 
                 </p>
                 <p>
-                    Password  <input type="text" />
+                    Password  <input type="password" />
                 </p>
-                    Repeat Password <input type="text" />
+                    Repeat Password <input type="password" />
                 <p>
-                    Email <input type="text" />
+                    Email <input type="mail" />
                 </p>
                 <p>
                     <button>Register</button>
