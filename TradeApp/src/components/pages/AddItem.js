@@ -42,59 +42,66 @@ export default class AddItem extends Component {
 
     render() {
         return (
-            <div className="card">
+        <div className="card">
+            <h1>Add an item</h1>
         <form onSubmit={this.handleSubmit} className="card-body">
           <div className="form-group">
+              Title
             <input
               type="text"
               name="title"
               className="form-control"
               value={this.state.title}
               onChange={this.handleInput}
-              placeholder="Title"
+              placeholder="Name of the product"
               />
           </div>
           <div className="form-group">
+            Seller
             <input
               type="text"
               name="seller"
               className="form-control"
               value={this.state.seller}
               onChange={this.handleInput}
-              placeholder="Seller"
+              placeholder="Your name"
               />
           </div>
           <div className="form-group">
+              Price
             <input
               type="number"
               name="price"
               className="form-control"
               value={this.state.price}
               onChange={this.handleInput}
-              placeholder="Price"
+              placeholder="Put a price"
               />
           </div>
           <div className="form-group">
+              Phone
             <input
               type="text"
               name="phone"
               className="form-control"
               value={this.state.phone}
               onChange={this.handleInput}
-              placeholder="Phone"
+              placeholder="Your phone"
               />
           </div>
           <div className="form-group">
+              Description
             <input
               type="text"
               name="description"
               className="form-control"
               value={this.state.description}
               onChange={this.handleInput}
-              placeholder="Description"
+              placeholder="Add a nice description"
               />
           </div>
           <div className="form-group">
+              Categorie
             <select
                 name="categorie"
                 className="form-control"
