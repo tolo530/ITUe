@@ -12,7 +12,7 @@ import React, { Component } from 'react'
 export default class Registration extends Component {
     render() {
         return (
-            <form>
+            <form className="form-page">
                 <h3>Sign Up</h3>
 
                 <div className="form-group">
@@ -37,7 +37,7 @@ export default class Registration extends Component {
 
                 <button type="submit" className="btn btn-primary btn-block">Sign Up</button>
                 <p className="forgot-password text-right">
-                    Already registered? <a href="#">Sign in</a>
+                    Already registered? <a href="/login">Sign in</a>
                 </p>
             </form>
         );

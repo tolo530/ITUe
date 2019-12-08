@@ -52,3 +52,7 @@ form {
 .navItems li a {
   color: #fff;
 }
+
+.form-page {
+  margin-top: 40px;
+}
