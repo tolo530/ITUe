@@ -6,6 +6,7 @@ import Header from './components/Header';
 import Home from './components/pages/Home';
 import Registration from './components/pages/Registration';
 import Login from './components/pages/Login';
+import AddItem from './components/pages/AddItem';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route exact path ='/' component = {Home} />
         <Route exact path ='/login' component = {Login} />
         <Route exact path ='/registration' component = {Registration} />
+        <Route exact path ='/AddItem' component = {AddItem} />
 
       
       </div>

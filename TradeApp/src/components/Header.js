@@ -1,4 +1,5 @@
 import React from 'react';
+import plus from '../plus.png';
 
 function Header() {
 
@@ -12,6 +13,9 @@ function Header() {
             </li>
             <li className="navigation">
               Categories
+            </li>
+            <li className="user-options"> 
+              <a href="/AddItem">Add</a>
             </li>
             <li className="user-options"> 
               <a href="/login">Login</a>
