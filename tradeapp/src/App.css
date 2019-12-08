@@ -1,0 +1,43 @@
+nav{
+  background-color: black;
+  height: 45px;
+  color: white;
+
+}
+
+.navItems li {
+  list-style-type: none;
+  margin: 3px;
+  display: inline-block;
+  margin-top: 10px;
+  padding-right: 15px;
+}
+
+.user-options{
+  float: right;
+ 
+
+}
+.card-header{
+  color: red;
+}
+
+.price{
+  float: right;
+  margin-right: 8px;
+}
+
+.phone{
+  float: left;
+  margin-left: 3px;
+  font-weight: bold;
+}
+
+.description{
+  margin: 3px;
+}
+
+.app-name{
+  font-weight: bold;
+}
+
