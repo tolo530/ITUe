@@ -62,3 +62,11 @@ form {
 .card {
   margin-bottom: 15px;  
 }
+
+/* form {
+  margin: 0;
+} */
+.bg-light{
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
