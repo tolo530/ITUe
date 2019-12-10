@@ -3,8 +3,7 @@ import React, { Component } from 'react';
 import '../../../src/App.css';
 import {items} from '../../../src/items.json';
 import Header from '../../components/Header';
-// import images from '../../..src/images';
-
+//import images from '../../../public/img.jpg'
 
 
 
@@ -18,12 +17,14 @@ class Home extends Component {
   render(){
 
     const items = this.state.items.map((items, i) => {
+
       return (
           <div className="col-md-4" key={i}>
+            <img src={items.image} width="60" />
+
             <div className="card mt-5">
                <div className="card-header">
-              
-                 <img src={items.image} key={i} />
+
                  <h4>
                   {items.title}
                 </h4>
