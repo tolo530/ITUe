@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import Login from './Login';
 
 // class Registration extends Component {
 
@@ -17,6 +19,7 @@ export default class Registration extends Component {
     handleSubmit(e){
         e.preventDefault();
         window.alert("A confirmation mail was sent to your email address. Please, follow the instructions from the email");
+        window.location = "./Login";
     }
 
     render() {

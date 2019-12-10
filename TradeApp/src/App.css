@@ -63,10 +63,18 @@ form {
   margin-bottom: 15px;  
 }
 
+<<<<<<< HEAD
 /* form {
   margin: 0;
 } */
 .bg-light{
   margin-top: 25px;
   margin-bottom: 40px;
+=======
+.search{
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 60px;
+  margin-bottom: 50px;
+>>>>>>> 7a4d18607ae8556428074f29907eb0b082328c5b
 }
