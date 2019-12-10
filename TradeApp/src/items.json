@@ -1,33 +1,37 @@
 {
     "items":[
         {
+            "id":1,
             "title": "Small lamp",
             "price": 25,
-            "categorie":"lamparas",
+            "category":"lamparas",
             "seller":"Fungencio Martinez",
             "description": "Description 1 blablablabla...",
             "phone": "+66 456 123 444"
         },
         {
+            "id":2,
             "title": "Deodorant",
             "price": 5,
-            "categorie":"higiene",
+            "category":"higiene",
             "seller":"Jaimito Gutierrez",
             "description": "Description 2 blablablabla...",
             "phone": "+66 456 123 666"
         },
         {
+            "id":3,
             "title": "Super Toaster",
             "price": 33,
-            "categorie":"tostadoras",
+            "category":"tostadoras",
             "seller":"Sasha Ramirez",
             "description": "Description 3 blablablabla...",
             "phone": "+66 456 123 555"
         },
         {
+            "id":3,
             "title": "Soplica bottle",
             "price": 7,
-            "categorie":"comida",
+            "category   ":"comida",
             "seller":"Sasha Ramirez",
             "description": "Description 4 blablablabla...",
             "phone": "+66 456 123 555"

@@ -11,9 +11,6 @@ function Header() {
             <li className="navigation">
               <a href="/">Home</a>
             </li>
-            <li className="navigation">
-              Categories
-            </li>
             <li className="user-options"> 
               <a href="/AddItem">Add</a>
             </li>

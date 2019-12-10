@@ -5,6 +5,8 @@ import {items} from '../../../src/items.json';
 import Header from '../../components/Header';
 
 
+
+
 class Home extends Component {
 
   constructor(){
@@ -13,14 +15,14 @@ class Home extends Component {
   }
 
   render(){
-
     const items = this.state.items.map((items, i) => {
       return (
-          <div className="col-md-4">
+          <div className="col-md-4" key={i}>
             <div className="card mt-5">
                <div className="card-header">
                  <h4>
                   {items.title}
+                  {items.image}
                 </h4>
           </div>
           <div className="class-body">
@@ -48,9 +50,11 @@ class Home extends Component {
     })
 
     return (
+      
       <div className="Home">
-          
         <div className = "container">
+          <input type="search"></input>
+          <button class="btn btn-primary">Search</button>
           <div className="row mt-4">
             {items}
           </div>
