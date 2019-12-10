@@ -28,23 +28,13 @@ export default class AddItem extends Component {
 
     handleSubmit(e){
         e.preventDefault();
-        this.props.onAddItem(this.state);
-        this.setState ({
-            title:'',
-            price: '',
-            categorie: '',
-            seller: '',
-            description: '',
-            phone: ''
-
-        })
+        window.alert("Item added sucssesfully");
     }
 
     render() {
         return (
-        <div className="card">
-            <h1>Add an item</h1>
         <form onSubmit={this.handleSubmit} className="card-body">
+          <h3>Add an item</h3>
           <div className="form-group">
               Title
             <input
@@ -119,7 +109,7 @@ export default class AddItem extends Component {
             Add
           </button>
         </form>
-      </div>
+      
         );
     }
 }

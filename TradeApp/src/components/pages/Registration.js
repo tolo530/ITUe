@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 
-
-
 // class Registration extends Component {
 
 // }
@@ -10,9 +8,20 @@ import React, { Component } from 'react'
 // import React, { Component } from "react";
 
 export default class Registration extends Component {
+
+    constructor(){
+        super();
+        this.handleSubmit = this.handleSubmit.bind(this);
+    }
+
+    handleSubmit(e){
+        e.preventDefault();
+        window.alert("A confirmation mail was sent to your email address. Please, follow the instructions from the email");
+    }
+
     render() {
         return (
-            <form className="form-page">
+            <form onSubmit={this.handleSubmit} className="form-page">
                 <h3>Sign Up</h3>
 
                 <div className="form-group">
@@ -35,7 +44,7 @@ export default class Registration extends Component {
                     <input type="password" className="form-control" placeholder="Enter password" />
                 </div>
 
-                <button type="submit" className="btn btn-primary btn-block">Sign Up</button>
+                <button type="submit" className="btn btn-primary  btn-block">Sign Up</button>
                 <p className="forgot-password text-right">
                     Already registered? <a href="/login">Sign in</a>
                 </p>

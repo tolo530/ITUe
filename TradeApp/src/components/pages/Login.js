@@ -1,11 +1,25 @@
 import React, { Component } from "react";
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import Home from './Home';
 
 export default class Login extends Component {
+
+    constructor(){
+        super();
+        this.handleSubmit = this.handleSubmit.bind(this);
+    }
+
+
+    handleSubmit(e){
+        e.preventDefault();
+        window.location = "./";
+    }
+
     render() {
         return (
 
             
-            <form className="form-page">
+            <form onSubmit={this.handleSubmit} className="form-page">
                 <h3>Sign In</h3>
 
                 <div className="form-group">
