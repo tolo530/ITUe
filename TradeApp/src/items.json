@@ -2,12 +2,12 @@
     "items":[
         {
             "id":1,
-            "image": "'../../../public/img.jpg'",
+            "image": "../pages/vga.png",
             "title": "Small lamp",
             "price": 25,
             "category":"lamparas",
             "seller":"Fungencio Martinez",
-            "description": "Description 1 blablablabla...",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pellentesque erat ac mauris aliquet, id venenatis dui sagittis. Vivamus imperdiet pellentesque enim, in vestibulum nibh. ",
             "phone": "+66 456 123 444"
         },
         {
