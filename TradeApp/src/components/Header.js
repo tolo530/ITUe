@@ -2,11 +2,13 @@ import React, { Component } from "react";
 
 
 export default class Header extends Component {
-
-
+  constructor(){
+    super();
+    
+  }
+  
     render(){
       return (
-       
         <header>
           <nav>
             <ul className="navItems">
@@ -15,7 +17,7 @@ export default class Header extends Component {
               </li>
               <li className="user-options">
                 <button type="button" class="badge badge-pill badge-warning">
-                Favourites <span class="badge badge-light"> fav </span>
+                Favourites <span class="badge badge-light"> 0 </span>
                 </button>
               </li>
               <li className="user-options"> 
