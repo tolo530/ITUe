@@ -3,7 +3,8 @@ import React, { Component } from 'react';
 import '../../../src/App.css';
 import {items} from '../../../src/items.json';
 import Header from '../../components/Header';
-// import images from '../../..src/images';
+//import image from '../pages/vga.png';
+import image from '../../images/placeholder.png';
 
 
 
@@ -19,36 +20,18 @@ class Home extends Component {
 
     const items = this.state.items.map((items, i) => {
       return (
-          <div className="col-md-4" key={i}>
-            <div className="card mt-5">
-               <div className="card-header">
-              
-                 <img src={items.image} key={i} />
-                 <h4>
-                  {items.title}
-                </h4>
-          </div>
-          <div className="class-body">
-            <p>
-              <span className="description">
-              {items.description}
-              </span>
-            </p>
-            <p>
-              <span className="phone">
-                {items.phone}
-              </span>
-              <span className="price">
-                <span className="badge badge-primary">
-                  {items.price+"€"}
-                </span>
-              </span>
-              
-            </p>
-          </div>
+        <div className="col-md-4" key={i}>
+        <div className="card">
+        <img src={image} key={i} />
+        <div className="card-body">
+          <h5 className="card-title">{items.title}</h5>
+          <p className="card-text">{items.description}</p>
+          <button type="button" className="button-wrapper btn btn-outline-info btn-sm">View</button>
+          <button type="button" className="button-wrapper btn btn-outline-danger btn-sm">Add to cart</button>
+          
         </div>
-
-          </div>
+      </div>
+      </div>
       )
     })
 
@@ -57,7 +40,7 @@ class Home extends Component {
       <div className="Home">
         <div className = "container">
           <input type="search"></input>
-          <button class="btn btn-primary">Search</button>
+          <button className="btn btn-primary btn-sm">Search</button>
           <div className="row mt-4">
             {items}
           </div>

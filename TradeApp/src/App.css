@@ -16,8 +16,6 @@ nav{
 
 .user-options{
   float: right;
- 
-
 }
 
 form {
@@ -55,4 +53,12 @@ form {
 
 .form-page {
   margin-top: 40px;
+}
+
+.button-wrapper {
+  margin: 5px;
+}
+
+.card {
+  margin-bottom: 15px;  
 }
