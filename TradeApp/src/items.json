@@ -2,6 +2,7 @@
     "items":[
         {
             "id":1,
+            "image": "../../../src/images/img.jpg",
             "title": "Small lamp",
             "price": 25,
             "category":"lamparas",
@@ -11,6 +12,7 @@
         },
         {
             "id":2,
+            "image": "C:/dev/ITUe/TradeApp/src/images/img.jpg",
             "title": "Deodorant",
             "price": 5,
             "category":"higiene",
