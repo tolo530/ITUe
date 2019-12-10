@@ -1,5 +1,5 @@
 import React from 'react';
-import plus from '../plus.png';
+
 
 function Header() {
 
@@ -13,7 +13,7 @@ function Header() {
             </li>
             <li className="user-options">
               <button type="button" class="badge badge-pill badge-warning">
-              Cart <span class="badge badge-light"> 4</span>
+              Favourites <span class="badge badge-light"> 0</span>
               </button>
             </li>
             <li className="user-options"> 

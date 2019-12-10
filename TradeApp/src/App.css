@@ -62,3 +62,10 @@ form {
 .card {
   margin-bottom: 15px;  
 }
+
+.search{
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}

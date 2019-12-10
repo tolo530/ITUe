@@ -28,7 +28,7 @@ class Home extends Component {
           <h5 className="card-title">{items.title}</h5>
           <p className="card-text">{items.description}</p>
           <button type="button" className="button-wrapper btn btn-outline-info btn-sm">View</button>
-          <button type="button" className="button-wrapper btn btn-outline-danger btn-sm">Add to cart</button>
+          <button type="button" className="button-wrapper btn btn-outline-danger btn-sm">Add to favourites</button>
           
         </div>
       </div>
@@ -40,8 +40,10 @@ class Home extends Component {
       
       <div className="Home">
         <div className = "container">
-          <input type="search"></input>
+        <div className = "search">
+            <input type="text" className="form-control" placeholder="Search" />>
           <button className="btn btn-primary btn-sm">Search</button>
+          </div>
           <div className="row mt-4">
             {items}
           </div>
