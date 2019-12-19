@@ -2,13 +2,6 @@ import React, { Component } from 'react'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Login from './Login';
 
-// class Registration extends Component {
-
-// }
-// export default Registration
-
-// import React, { Component } from "react";
-
 export default class Registration extends Component {
 
     constructor(){

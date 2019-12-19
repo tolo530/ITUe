@@ -9,7 +9,6 @@ export default class Login extends Component {
         this.handleSubmit = this.handleSubmit.bind(this);
     }
 
-
     handleSubmit(e){
         e.preventDefault();
         window.location = "./";
@@ -17,8 +16,6 @@ export default class Login extends Component {
 
     render() {
         return (
-
-            
             <form onSubmit={this.handleSubmit} className="form-page">
                 <h3>Sign In</h3>
 

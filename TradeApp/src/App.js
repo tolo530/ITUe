@@ -7,6 +7,7 @@ import Home from './components/pages/Home';
 import Registration from './components/pages/Registration';
 import Login from './components/pages/Login';
 import AddItem from './components/pages/AddItem';
+import Cart from './components/pages/Cart';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route exact path ='/login' component = {Login} />
         <Route exact path ='/registration' component = {Registration} />
         <Route exact path ='/AddItem' component = {AddItem} />
+        <Route exact path ='/Cart' component = {Cart} />
 
       
       </div>

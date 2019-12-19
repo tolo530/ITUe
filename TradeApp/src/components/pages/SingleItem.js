@@ -1,12 +1,5 @@
 import React, { Component } from 'react'
 
-// class Registration extends Component {
-
-// }
-// export default Registration
-
-// import React, { Component } from "react";
-
 export default class Registration extends Component {
 
     constructor(){
@@ -20,8 +13,6 @@ export default class Registration extends Component {
     }
 
     render() {
-        return (
-            
-        );
+        return (null);
     }
 }
